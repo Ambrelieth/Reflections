@@ -25,4 +25,5 @@ How would branches help?
 
     If you want to make a whole new version of the project, a branch can facilitate this.
     It preserves the project up till this point and allows you to access the original project
-    at any time.
+    at any time. They can also be used to preserve a working copy of the project while different
+    branches are used to create new features.
