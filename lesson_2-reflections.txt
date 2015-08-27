@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    A respository creates a hidden file that will contain the metadata and
+    history of commits made. The computer needs a place to store this that will
+    be associated with the files that are a part of the reposistory.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area allows control over which files need to be tracked for a given
+    change. If no changes were made to a file, that file doesn't need to be tracked for
+    that commit. Some files may not be changed at all after the initial commit.  Be
+    careful, though. A commit is asnapshot of the current files, and the changes made
+    to them, not the files you plan to change.

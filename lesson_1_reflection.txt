@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When I've needed to locate what change may have caused a bug, I've resorted to
+    stepping back through the most recent changes using command-z, each time
+    checking if the bug still exists. Then when I find it, fixing that part of the
+    code and rewriting all the work I've just erased. All this is a very time-
+    consuming process. The diff command is brilliant and time saving. If the bug is
+    very obvious, as is the case with typos, it will pop right out. Otherwise some
+    analysis will be needed, but it will be much easier when each change is clearly
+    labeled in this way.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because fixing a bug can introduce more bugs, because the introduction of one
+    bug can cause others, because sometimes we want to go back to how things worked
+    before, but can't remember exactly how the code was written: all these situations
+    could be more easily handled if we could refer back to previous versions of our
+    work.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Although automatic saves are great because we often forget to do so, they are
+    much more useful in the context of word processing or video games. While writing
+    code, it is more useful to have meaningful versions of the code that work. This
+    will make them useful for debugging when changes are made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google docs is not designed for programming. It's designed for documentation.
+    Other version control systems are designed for other things. Git, and systems
+    like it are specifically designed for programming and given the functionality
+    that will be useful in that context. Since some programming files are inter-
+    related, they will need to be tracked together to create meaninful saves.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log lists recent commits with ids. To see the changes, use git diff and compare
+    to another file. There must be other commands that will allow us to view each individual
+    file as well, in order that we may go back to it during our workflow.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Version control does indeed make experimenting less dangerous and time consuming.
+    The process has the potential to increase coding efficiency by a lot.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I plan to get a lot of experience using git in all my programming projects so
+    that I may become skilled in version control.
