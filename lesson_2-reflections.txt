@@ -27,3 +27,15 @@ How would branches help?
     It preserves the project up till this point and allows you to access the original project
     at any time. They can also be used to preserve a working copy of the project while different
     branches are used to create new features.
+
+5. How do the diagrams help you visualize the branch structure?
+
+    Diagrams help to clarify where the commit is going in the heirarchy and whether or not it
+    will be reachable later. It also helps when merging branches.
+
+6. What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+    Merging two branches introduces the changes from one branch into another without losing the
+    changes made after the second branch was created. The diagram shows which changes are included
+    in the merge and the branches wich are still separate.
