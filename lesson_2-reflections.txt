@@ -12,3 +12,10 @@ What value do you think it offers?
     that commit. Some files may not be changed at all after the initial commit.  Be
     careful, though. A commit is asnapshot of the current files, and the changes made
     to them, not the files you plan to change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Changes between the working directory files and the last commit can be checked against
+    those in the staging area to ensure that the changes you want to commit are those
+    that will be commited. You can be sure that the file in the staging area is the one
+    you want to save.
